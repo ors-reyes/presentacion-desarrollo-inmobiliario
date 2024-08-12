@@ -1,0 +1,152 @@
+.presentacion{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../src/fondoA.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #000;
+}
+.nav{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+.logo{
+    display: none;
+}
+.nav object{
+    position: absolute;
+    height: 50px;
+}
+.cajamutal{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.cajamutal object{
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.edificio{
+    width: 100%;
+    max-width: 2000px;
+    min-width: 300px;
+    height: calc(95% - 50px);
+    max-height: 1000px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    background-image: url(../src/png/ediPresentacion.png);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apasitos{
+    display: none;
+}
+.preSlider{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .nav{
+        width: 100vw;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        position: absolute;
+        left: 10%;
+        height: 80px;
+        color: gainsboro;
+        font-size: 3em;
+        font-weight: bolder;        
+        display: block;
+        z-index: 2;
+    }
+    .nav object{        
+        position: absolute;
+        height: 50px;
+        right: 10%;
+        z-index: 2;
+    }
+    .edificio{
+        position: absolute;
+        height: calc(95% - 80px);
+        height: 95%;
+        bottom: 0;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .apasitos{
+        display: block;
+        width: 220px;
+        height: calc(100% - 260px);
+        background-image: url(../src/png/sliderCerca.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 10%;
+    }
+    .preSlider{
+        display: block;
+        width: 40%;
+        height: calc(100% - 160px);
+        margin-right: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sliderPres{
+        width: calc(100% - 160px);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .slider img{
+        width: 100%;
+        max-height: 80%;
+        object-fit: contain;
+    }
+    .sliderBtn{
+        width: 135px;
+        height: 100%;
+        background-image: url(../src/png/sliderPhoto.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right center;        
+    }
+    .edificio{
+        background-position: calc(220px + 20%) bottom;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .edificio{
+        background-position: 40% bottom;
+    }
+}

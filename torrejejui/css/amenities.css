@@ -1,0 +1,176 @@
+.amenities{
+    width: 100%;
+    position: relative;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../src/fondoD.svg);
+    background-size: contain;
+    background-position: center;
+    padding: 100px 0px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.amenitiesTitle{
+    position: absolute;
+    top: 0;right: 0;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(33, 55, 111, 0.5);
+    padding: 20px 80px;
+    border-radius: 0 0 0% 50%;
+}
+.amenitiesTitle h2{
+    text-align: center;
+    font-size: 2.5em;
+    /* color: #21376F; */
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.amenitiesA{
+    width: 100%;
+    height: 100%;
+}
+.amenitiesConte{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+}
+.amenitiesConte img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btnsAme{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.amenitiesBtn{    
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(33, 55, 111, 1);
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 2;
+}
+.amenitiesBtn::before{
+    content: "";
+    width: 101px;
+    height: 101px;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    border: 1px solid  rgba(33, 55, 111, 1);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: 1;
+}
+.amenitiesBtn:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+.piscina,.quincho,.coworking,.gimnasio{
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.piscina{
+    background-image: url(../src/icon/piscina.svg);
+}
+.quincho{
+    background-image: url(../src/icon/quincho.svg);
+}
+.coworking{
+    background-image: url(../src/icon/coworking.svg);
+}
+.gimnasio{
+    background-image: url(../src/icon/gimnasio.svg);
+}
+.amenitiesTitleB{
+    position: absolute;
+    /* z-index: 1; */
+    bottom: 0;left: 0;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    background-color: rgba(33, 55, 111, 0.5);
+    padding: 20px 80px;
+    border-radius: 0 50% 0% 0%;
+}
+.amenitiesTitleB object{
+    max-width: 250px;
+    max-height: 150px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+@media screen and (min-width: 1024px) {
+    .amenities{
+        background-repeat: repeat;
+        background-size: 50%;
+    }
+    .amenitiesTitle{
+        position: absolute;
+        top: 0;right: 0;
+        width: 50%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(33, 55, 111, 0.5);
+        padding: 20px 80px;
+    }
+    .amenitiesA{
+        width: 40%;
+        height: 100%;
+    }
+    .amenities{
+        gap: 20px;
+    }
+    .amenitiesTitleB{
+        position: absolute;
+        z-index: 1;
+        bottom: 0;left: 0;
+        width: 50%;
+        height: 180px;
+        background-color: rgba(33, 55, 111, 0.5);
+        /* padding: 20px 80px; */
+        border-radius: 0 50% 0% 0%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .amenitiesTitle{
+        position: absolute;
+        top: 0;right: 0;
+        width: 50%;
+        height: 180px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(33, 55, 111, 0.5);
+        padding: 20px 80px;
+    }
+}

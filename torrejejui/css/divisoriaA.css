@@ -1,0 +1,28 @@
+.divisoriaA{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divisoriaA h2{
+    color: gainsboro;
+    padding: 100px 20px;
+    text-align: center;
+    font-size: 1.5em;
+}@media screen and (min-width: 1740px) {
+    .divisoriaA h2{
+        color: gainsboro;
+        padding: 20px;
+        text-align: center;
+        font-size: 2em;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .divisoriaA h2{
+        color: gainsboro;
+        padding: 50px 20px;
+        text-align: center;
+        font-size: 2.5em;
+    }
+}

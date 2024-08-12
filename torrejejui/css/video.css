@@ -1,0 +1,28 @@
+.presentacion3{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../src/fondoB.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentacion3::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    min-height: 100%;
+    background-color: #21376F;
+    opacity: 0.5;
+    
+}
+.presentacion3 iframe{
+    position: relative;
+    z-index: 1;
+    width: 90vw;
+    height: 45vh;
+}

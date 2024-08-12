@@ -1,0 +1,60 @@
+.proyecto{
+    width: 100vw;    
+    min-height: 100vh;
+    background-image: url(../src/fondoC.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10px;
+}
+.title{
+    width: 80%;
+}
+.renders{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.renders img{
+    border-radius: 10px;
+    width: 100%;
+}
+.legenda{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.legenda object{
+    width: 80%;
+}
+@media screen and (min-width: 768px) {
+    .legenda object{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .title{ width: 50%; }
+    .renders img{
+        width: 32%;
+    }
+    .legenda object{
+        width: 25%;
+    }
+}
+@media screen and (min-width: 1440px) {
+}
+@media screen and (min-width: 2560px) {}

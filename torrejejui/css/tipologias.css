@@ -1,0 +1,69 @@
+.tipologias{
+    width: 100%;
+    background-image: url(../src/fondoC.svg);
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    padding-top: 200px;
+    position: relative;
+}
+.tipologiaTitle{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 180px;
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tipologiaTitle h2{
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 3em;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.tipologia{
+    width: 100%;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* border-bottom: 1px solid gray; */
+    border-right: 1px solid transparent;
+}
+.familiar{
+    background-image: url(../src/png/tipologiaFamiliar.svg);
+}
+.pareja{
+    background-image: url(../src/png/tipologiaPareja.svg);
+}
+.soltero{
+    background-image: url(../src/png/tipologiaSoltero.svg);
+}
+@media screen and (min-width: 1024px) {
+    .tipologias{
+        gap: 4%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 20px;
+        padding-top: 200px;
+    }
+    .tipologia{
+        width: 30%;
+        min-height: 560px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border-bottom: 1px solid transparent;
+        border-right: 1px solid gray;
+    }
+}
+
+@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 2560px) {}

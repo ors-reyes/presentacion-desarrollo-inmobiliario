@@ -1,0 +1,76 @@
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../src/header.svg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: gainsboro;
+    padding: 10px;
+}
+nav object{
+    max-height: 75px;
+}
+nav h1{
+    font-size: 2em;
+    font-weight: 900;
+}
+.headeFooter{
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.headerIcon{
+    width: 100%;
+    height: calc(100% - 250px);
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.headerIcon-Left,.headerIcon-Right{
+    width: 100px;
+    height: 100%;
+    background-size: contain;
+    background-position: top 30px center;
+    background-repeat: no-repeat;
+}
+.headerIcon-Left{
+    background-image: url(../src/headerIcon-Left.svg);
+}
+.headerIcon-Right{
+    background-image: url(../src/headerIcon-Right.svg);
+}
+@media screen and (min-width: 768px) {}
+@media screen and (min-width: 1024px) {
+    .headerIcon-Left,.headerIcon-Right{
+        background-position: center;
+    }
+    .headerIcon{
+        padding: 0 50px;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .headerIcon-Left,.headerIcon-Right{
+        width: 150px;
+    }
+}
+@media screen and (min-width: 2560px) {}

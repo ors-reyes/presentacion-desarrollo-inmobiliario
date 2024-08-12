@@ -1,0 +1,37 @@
+body{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./src/fondoC.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+object{
+    position: absolute;
+}
+.left,.right{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.left{
+    background-image: url(./src/presentacion1.svg);
+    background-position: right top;
+}
+.right{
+    background-image: url(./src/presentacion2.svg);
+    background-position: left top;
+}
+.left:hover,.right:hover{
+    opacity: 0.7;
+}

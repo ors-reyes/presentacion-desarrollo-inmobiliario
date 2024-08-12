@@ -1,0 +1,15 @@
+footer{
+    width: 100vw;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+}
+footer object{
+    max-height: 50px;
+}

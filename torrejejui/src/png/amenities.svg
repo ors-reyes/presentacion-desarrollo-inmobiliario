@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 750 280" style="enable-background:new 0 0 750 280;" xml:space="preserve">
+<style type="text/css">
+	.amaca,.cabeza,.cuerpo,.pierna{
+		fill:none;stroke:#21376F;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;opacity: 0;
+	}
+	.amaca{
+		stroke-dasharray: 765;
+		stroke-dashoffset: 765;
+		animation: amaca 1s forwards cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+	}
+	.cuerpo{
+		stroke-dasharray: 497;
+		stroke-dashoffset: 497;
+		animation: cuerpo 1s forwards cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.6s;
+	}
+	.pierna{
+		stroke-dasharray: 209;
+		stroke-dashoffset: 209;
+		animation: pierna 1s forwards cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.8s;
+	}
+	.cabeza{
+		stroke-dasharray: 388;
+		stroke-dashoffset: 388;
+		animation: cabeza 1s forwards cubic-bezier(0.68, -0.55, 0.27, 1.55) 1s;
+	}
+	@keyframes amaca{0%{stroke-dashoffset:765px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
+	@keyframes cuerpo{0%{stroke-dashoffset:497px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
+	@keyframes pierna{0%{stroke-dashoffset:209px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
+	@keyframes cabeza{0%{stroke-dashoffset:388px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
+</style>
+<path class="amaca" d="M725,38.9C506,222.3,272.7,226.6,25,50.8"/>
+<path class="cuerpo" d="M363.5,255c-49-17.1-70.7-50.1-72.4-94.9c100.9,33.6,218,4.2,347.4-72.7"/>
+<path class="pierna" d="M582.2,180.3c-18.3-15.7-89.7-73.9-108.6-66.7l-56.3,52.5"/>
+<path class="cabeza" d="M250.4,46.4c65.2,36.8,18.9,101.9-19.9,103.4c-87.8,3.4-91.1-164.1,45.8-116.2"/>
+</svg>
