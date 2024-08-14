@@ -27,8 +27,8 @@
 
 
 	.barrio{fill:none;stroke:#666666;stroke-width:1;opacity: 0;animation: barrio 1s forwards calc(var(--ini) + 1s);}	
-	@keyframes barrio{0%{opacity: 0;}100%{opacity: 1;}}
-	.jejuiLine,.colonLine,.hernandariasLine,.ygatimiLine{fill:none;stroke:#00C1C1;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;opacity: 0;}
+	@keyframes barrio{0%{opacity: 0;}100%{opacity: 0.5;}}
+	.jejuiLine,.colonLine,.hernandariasLine,.ygatimiLine{fill:none;stroke:#21376F;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;opacity: 0;}
 	.jejuiLine{opacity: 1;stroke-dasharray: 580;stroke-dashoffset: 580;
 		animation: jejuiLine 0.5s forwards ease-out calc(var(--ini) + 1.5s);
 	}
@@ -46,7 +46,7 @@
 	@keyframes hernandariasLine{0%{stroke-dashoffset:735px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
 	@keyframes ygatimiLine{0%{stroke-dashoffset:713px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
 
-	.textoJejui,.callesTxt{fill:white;font-size:40px;font-family: "Exo", sans-serif;font-weight: bolder;opacity: 0;animation: ver 1s forwards ease-out calc(var(--ini) + 2s);}
+	.textoJejui,.callesTxt{fill:#21376F;font-size:40px;font-family: "Exo", sans-serif;font-weight: bolder;opacity: 0;animation: ver 1s forwards ease-out calc(var(--ini) + 2s);}
 	.textoJejui{font-size:70px;opacity: 0;}
 	.iconos{fill:#999999;opacity: 0;
 		animation: ver 1s forwards ease-out calc(var(--ini) + 3s);

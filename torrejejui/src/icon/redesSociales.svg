@@ -36,14 +36,17 @@
 	const x = document.querySelector(".newX")
 	const iX = document.querySelector(".iconNewX")
 	w.addEventListener("click", () => {
-		
 		window.open("https://wa.me/595994441044", '_blank');
 	});
 	iW.addEventListener("click", () => {
 		window.open("https://wa.me/595994441044", '_blank');
 	});
-	f.addEventListener("click", () => {iF.style.fill= "gainsboro"});
-	iF.addEventListener("click", () => {iF.style.fill= "gainsboro"});
+	f.addEventListener("click", () => {
+		window.open("https://www.facebook.com/profile.php?id=100069916925603", '_blank');
+	});
+	iF.addEventListener("click", () => {
+		window.open("https://www.facebook.com/profile.php?id=100069916925603", '_blank');
+	});
 	i.addEventListener("click", () => {
 		window.open("https://www.instagram.com/torreboggiani/?igsh=MXI4eHh2Mng2MXVycw%3D%3D", '_blank');
 	});

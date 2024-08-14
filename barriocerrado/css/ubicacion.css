@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
 }
 .mapa{
-    background-image: url(../src/mapa.svg);
+    background-image: url(../src/mapa2.svg);
     background-position: left center;
 }
 @media screen and (min-width: 768px) {

@@ -1,11 +1,11 @@
 .presentacion2{
     width: 100vw;
     min-height: 560px;
-    background-image: url(../src/fondoB.svg);
+    background-image: url(../src/fondoC.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
-    background-color: #000;
+    /* background-color: #000; */
     position: relative;
 }
 .presentacion2::before{
@@ -13,7 +13,7 @@
     position: absolute;
     width: 100vw;
     min-height: 100%;
-    background-color: #21376F;
+    /* background-color: #21376F; */
     opacity: 0.5;
     
 }
