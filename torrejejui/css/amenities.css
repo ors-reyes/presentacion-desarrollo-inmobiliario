@@ -64,7 +64,7 @@
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    background-color: rgba(33, 55, 111, 1);
+    background-color: #AD933F;
     cursor: pointer;
     transition: all 0.3s;
     position: relative;
@@ -77,7 +77,7 @@
     bottom: 0;
     left: 0;
     border-radius: 20px;
-    border: 1px solid  rgba(33, 55, 111, 1);
+    border: 1px solid  #AD933F;
     background-color: transparent;
     cursor: pointer;
     transition: all 0.5s;
