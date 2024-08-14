@@ -35,9 +35,6 @@
         width: 45%;
         height: 100%;
     }
-    .pasitos{
-        width: 45%;
-    }
 }
 @media screen and (min-width: 1024px) {
     .ubicacion{
@@ -51,6 +48,12 @@
     }
 }
 @media screen and (min-width: 1440px) {
+    .pasitos{
+        width: 50%;
+    }
+    .mapa{
+        width: 45%;
+    }
 }
 @media screen and (min-width: 1900px) {
     .ubicacion{

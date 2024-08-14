@@ -11,7 +11,7 @@
     background-position: center;
     padding: 100px 0px;
     padding-top: 250px;
-    padding-bottom: 250px;
+    /* padding-bottom: 250px; */
 }
 .amenitiesTitle{
     position: absolute;
@@ -123,6 +123,28 @@
     max-height: 150px;
     border-left: 1px solid white;
     border-right: 1px solid white;
+}
+.ame1,.ame2,.ame3,.ame4{
+    width: 100%;
+    min-height: 150px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ame1{
+    background-image: url(../src/amenities/usarSum.png);
+    
+}
+.ame2{
+    background-image: url(../src/amenities/usarTerraza.png);
+    
+}
+.ame3{
+    background-image: url(../src/amenities/usarGym.png);
+    
+}
+.ame4{
+    background-image: url(../src/amenities/usarCoworking.png);
 }
 @media screen and (min-width: 1024px) {
     .amenities{
